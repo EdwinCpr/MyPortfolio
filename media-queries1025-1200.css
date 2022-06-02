@@ -29,32 +29,4 @@
         gap: 22rem;
         width: 520px;
     }
-
-    /******************************** My portfolio ******************************/
-
-    .image-list {
-        width: 300px;
-        margin-left: 5px;
-    }
-    
-    .image-training {
-        width: 300px;
-        margin-left: 5px;
-    }
-
-    .background-color {
-        width: 320px;
-        height: 200px;
-        margin: -240px 0px 0px -3.5px;
-    }
-    
-    .background-color-two {
-        width: 320px;
-        height: 200px;
-        margin: -240px 0px 0px -4.5px;
-    }
-
-    .one-list, .two-list, .three-list {
-        height: 300px;
-    }
 }

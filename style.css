@@ -219,39 +219,26 @@ p {
     background: #1F1D2B;
 }
 
-.my-portfolio-all {
-    width: 90%;
+.portfolio-grid {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin: auto;
-}
-
-.image-list {
-    width: 140px;
-    margin-left: 5px;
-}
-
-.image-training {
-    width: 140px;
-    margin-left: 5px;
-}
-
-.background-color {
-    width: 153px;
-    height: 100px;
-    margin: -120px 0px 0px 0px;
-}
-
-.background-color-two {
-    width: 153px;
-    height: 100px;
-    margin: -120px 0px 0px 0px;
-}
-
-.one-list, .two-list, .three-list {
-    height: 200px;
+    width: 90%;
+    row-gap: 3rem;
 }
 
 .two-list {
-    margin-left: 40%;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.three-list {
+    grid-row: 3/4;
+}
+
+.image-list {
+    width: 100%;
 }
 
 /************************************* My contact ***************************************/

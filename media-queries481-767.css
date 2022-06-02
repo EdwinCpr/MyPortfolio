@@ -6,6 +6,14 @@
         font-size: 3.5rem;
     }
 
+    .box-shadow {
+        box-shadow: 0rem -1.5rem 0rem 0.85rem #F1A700;
+    }
+    
+    .box-shadow-one {
+        box-shadow: 0rem -1.5rem 0rem 0.85rem #242635;
+    }
+
     /************************************ My info ***********************/
 
     .my-info-all {
@@ -41,15 +49,5 @@
     .rectangule {
         background-size: 80%;
         background-position: -175%;
-    }
-
-    /************************* My portfolio ******************************/
-
-    .my-portfolio-all {
-        width: 70%;
-    }
-
-    .two-list {
-        margin-left: 50%;
     }
 }

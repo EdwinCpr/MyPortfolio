@@ -76,18 +76,18 @@ body{
     color: #F1A700;
 }
 
-.background-color {
-    background-color: #F1A700;
+.box-shadow {
+    box-shadow: 0rem -1rem 0rem 0.55rem #F1A700;
 }
 
-.background-color-two {
-    background-color: #242635;
+.box-shadow-one {
+    box-shadow: 0rem -1rem 0rem 0.55rem #242635;
 }
 
 .color-text-contact {
     color: #9A9B9C;
 }
 
-.padding3 {
-    padding: 3rem 0rem;
+.padding0-2 {
+    padding: 0.2rem 0rem;
 }

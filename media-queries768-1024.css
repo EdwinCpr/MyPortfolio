@@ -86,32 +86,4 @@
         width: 430px;
         gap: 16rem
     }
-
-    /**************************** My portfolio ***************************/
-
-    .image-list {
-        width: 200px;
-        margin-left: 5px;
-    }
-    
-    .image-training {
-        width: 200px;
-        margin-left: 5px;
-    }
-
-    .background-color {
-        width: 210px;
-        height: 150px;
-        margin: -165px 0px 0px 1px;
-    }
-    
-    .background-color-two {
-        width: 210px;
-        height: 150px;
-        margin: -165px 0px 0px 0px;
-    }
-
-    .one-list, .two-list, .three-list {
-        height: 200px;
-    }
 }
