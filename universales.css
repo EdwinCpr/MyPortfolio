@@ -1,0 +1,93 @@
+* {
+    list-style: none;
+    text-decoration: none;            
+    margin: 0px;
+    padding: 0px;
+}
+
+html { 
+    box-sizing: border-box;
+    font-size: 62.5%;        
+}
+
+body{
+    font-size: 1.6rem; 
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+/**************************** Class universal ******************************/
+
+.padding2rem {
+    padding: 5% 0rem 5% 0rem;
+    margin: 0px;
+}
+
+.networks-icon {
+    padding-left: 3.5%;
+    display: inline-block;
+}
+
+.networks-iconOne {
+    display: inline-block;
+}
+
+.networks img {
+    width: 2.5rem;
+}
+
+.logowidth {
+    width: 40%;
+}
+
+.logowidth-one {
+    width: 20%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.padding-box {
+    padding: 4rem 0px;
+}
+
+.paddingmixta {
+    padding: 4rem 0rem;
+}
+
+.font-small {
+    font-size: 1rem;
+}
+
+.font-large {
+    font-size: 2.9rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.color {
+    color: #F1A700;
+}
+
+.background-color {
+    background-color: #F1A700;
+}
+
+.background-color-two {
+    background-color: #242635;
+}
+
+.color-text-contact {
+    color: #9A9B9C;
+}
+
+.padding3 {
+    padding: 3rem 0rem;
+}

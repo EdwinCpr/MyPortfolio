@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+                /* Globales */
+                * {
+            list-style: none;
+            text-decoration: none;            
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html { 
+            box-sizing: border-box;
+            font-size: 62.5%;        
+        }
+
+        body{
+            font-size: 1.6rem; 
+            font-family: 'Inter', sans-serif;
+            color: #fff;
+        }
+
+        *, *:before, *:after{
+            box-sizing: inherit;
+        }
+
+        h1 {
+            font-size: 5rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 100;
+        }
+
+        p {
+            font-size: 1.6rem;
+            font-weight: none;
+        }
+
+        @media(min-width: 768px) {
+            h1 {
+                font-size: 6rem;
+            }
+
+            h2 {
+                font-size: 4rem;
+            }
+
+            h3 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 2rem;
+            }    
+        }
+
+        @media(min-width: 1025px) {
+            h1 {
+                font-size: 7rem;
+            }
+
+            h2 {
+                font-size: 5rem;
+            }
+
+            h3 {
+                font-size: 3.5rem;
+            }
+
+            p {
+                font-size: 2.3rem;
+            }
+
+        }
+
+        /* Universales */
+        .padding2rem {
+            padding: 5% 0rem 5% 0rem;
+            margin: 0px;
+        }
+
+        .networks-icon {
+            padding-left: 3.5%;
+            display: inline-block;
+        }
+
+        .networks-iconOne {
+            display: inline-block;
+        }
+
+        .networks img {
+            width: 2.5rem;
+        }
+
+        .logowidth {
+            width: 40%;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        /* Navegation */
+
+        .nav {
+            background: #1F1D2B;
+        }
+        .nav-icono{
+            padding: 2.5rem 0rem;
+            position: relative;
+            z-index: 40;
+            display: flex;
+            justify-content: flex-end;
+            width: 95%;
+        }
+
+        .nav-icono img{
+            width: 40px;
+            cursor: pointer;
+        }
+
+        .nav-option{
+            background-color: #242635;
+            box-shadow: 0.2rem 0rem 0.5rem 0.2rem rgb(66,66,66);
+            height: 100vh;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: all .6s ease;
+            text-align: center;
+            z-index: 30;
+        }
+
+        .active{
+            transform: translate(-1000px);
+        }
+
+        .nav-option ul{
+            padding: 10rem 0rem 2.0rem 0rem;
+            list-style: none;
+            margin: 0rem 3rem;
+        }
+
+        .nav-option ul li{
+            cursor: pointer;
+            padding: 3.5rem 0rem;
+        }
+
+        .nav-option a{
+            color: #FFFFFF;
+        }
+
+        .nav-option li:hover {
+            background-color: rgba(255, 255, 255, 0.692);
+        }
+
+        @media(min-width: 768px){
+            .nav-option {
+                background: unset;
+                box-shadow: unset;
+                position: relative;
+                text-align: right;
+                height: unset;
+            }
+
+            .nav-option ul {
+                padding: 3rem 0rem 0rem 0rem;
+            }
+
+            .nav-option ul li {
+                display: inline-block;
+                text-align: right;
+                padding: 0rem 3.1rem;
+            }
+
+            .nav-icono {
+                display: none;
+            }
+
+            .active {
+                transform: unset;
+            }
+        }
+
+        /* My info */
+
+        .my-info {
+            background-color: #242635;
+        }
+
+        .my-info-all {
+            width: 90%;
+            margin: auto;
+            padding-bottom: 3rem;
+        }
+
+        .one {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            background-color: #242635;
+            width: 100%;
+            margin: auto;
+        }
+
+        .my-info-image img {
+            width: 100%;
+        }
+
+        .my-info-title {
+            padding-bottom: 2rem;
+        }
+
+        .my-info-description {
+            position: relative;
+            z-index: 10;
+            width: 110%;
+        }
+
+        .my-info-experience {
+            width: 80%;
+        }
+
+        .my-info-image {
+            margin-left: -3.5rem;
+            position: relative;
+            z-index: 1;
+            width: 100%
+        }
+
+        @media(min-width: 481px) {
+            .my-info-all {
+                width: 75%;
+            }
+
+            .my-info-image {
+                margin-left: -6.5rem;
+            }
+
+            .my-info-experience {
+                width: 65%;
+            }
+        }
+
+        @media(min-width: 768px) {
+            .my-info-all {
+                width: 65%;
+                padding-top: 8rem;
+            }
+
+            .networks img {
+                width: 4rem;
+            }
+
+            .my-info-description {
+                width: 140%;
+            }
+
+            .my-info-image {
+                margin-left: -5.5rem;
+            }
+        }
+
+        @media(min-width: 1025px) {
+            .my-info-all {
+                width: 70%;
+            }
+
+            .my-info-description {
+                width: 100;
+            }
+
+            .my-info-image {
+                margin-left: -3.5rem;
+            }
+        }
+
+        @media(min-width: 1201px) {
+            .my-info-all {
+                width: 60%;
+            }
+
+            .networks img {
+                width: 4.5rem;
+            }
+
+            .my-info-image img {
+                width: 110%;
+            }
+        }
+
+        @media(min-width: 1600px) {
+            .my-info-image {
+                width: 90%;
+                right: 12.5rem;
+            }
+
+            .my-info-description {
+                width: 95%;
+            }
+
+            .my-info-experience {
+                width: 63%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>    
+        <nav class="nav">
+            <div class="nav-icono" id="nav-icono">
+                <img src="/image/menu 1.svg" alt="nav-bar">
+            </div>
+            <div class="nav-option active" id="nav-option">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Experiencia y habilidades</a></li>
+                    <li><a href="#">Portafolio</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="my-info">
+        <div class="my-info-all">
+            <div class="my-info-title">
+                <h1>Vanessa H.</h1>
+            </div>
+            <div class="one">
+                <div class="oneGrid">
+                    <div class="my-info-description">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                    </div>
+                    <div class="my-info-experience padding2rem">
+                        <h3>+5 años de experiencia</h3>
+                    </div>
+                    <div class="my-info-networks">
+                        <div class="networks-linkedin networks-iconOne networks">
+                            <a href="#"><img src="/image/cib_linkedin-in.svg" alt=""></a>
+                        </div>
+                        <div class="networks-instagram networks-icon networks">
+                            <a href="#"><img src="/image/ant-design_instagram-filled.svg" alt=""></a>
+                        </div>
+                        <div class="networks-twitter networks-icon networks">
+                            <a href="#"><img src="/image/ant-design_twitter-outlined.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="twoGrid">
+                    <div class="my-info-image">
+                        <img src="https://f.rpp-noticias.io/2019/02/15/753297descarga-8jpg.jpg" alt="">
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+    <script src="/main.js"></script>
+</body>
+</html>

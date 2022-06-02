@@ -1,0 +1,117 @@
+@media(min-width: 768px) {
+
+    /******************************** Font size *****************************/
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }    
+
+    /******************************** Universales ************************/
+
+    .font-small {
+        font-size: 1.5rem;
+    }
+
+    .font-large {
+        font-size: 4.5rem
+    }
+
+    /************************* Nav ************************/
+
+    .nav-option {
+        background: unset;
+        box-shadow: unset;
+        position: relative;
+        text-align: right;
+        height: unset;
+    }
+
+    .nav-option ul {
+        padding: 3rem 0rem 0rem 0rem;
+    }
+
+    .nav-option ul li {
+        display: inline-block;
+        text-align: right;
+        padding: 0rem 3.1rem;
+    }
+
+    .nav-icono {
+        display: none;
+    }
+
+    .active {
+        transform: unset;
+    }
+
+    /******************************* My info *******************/
+
+    .my-info-all {
+        width: 65%;
+        padding-top: 8rem;
+    }
+
+    .networks img {
+        width: 4rem;
+    }
+
+    .my-info-description {  
+        width: 140%;
+    }
+
+    .my-info-image {    
+        margin-left: -5.5rem;
+    }
+
+    /********************************* My abilities *************************/
+
+    .rectangule {
+        background-size: 80%;
+        background-position: -165%;
+    }
+
+    .flex {
+        width: 430px;
+        gap: 16rem
+    }
+
+    /**************************** My portfolio ***************************/
+
+    .image-list {
+        width: 200px;
+        margin-left: 5px;
+    }
+    
+    .image-training {
+        width: 200px;
+        margin-left: 5px;
+    }
+
+    .background-color {
+        width: 210px;
+        height: 150px;
+        margin: -165px 0px 0px 1px;
+    }
+    
+    .background-color-two {
+        width: 210px;
+        height: 150px;
+        margin: -165px 0px 0px 0px;
+    }
+
+    .one-list, .two-list, .three-list {
+        height: 200px;
+    }
+}

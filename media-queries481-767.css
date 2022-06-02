@@ -1,0 +1,55 @@
+@media(min-width: 481px) {
+
+    /*********************************** Universal **********************/
+
+    .font-large {
+        font-size: 3.5rem;
+    }
+
+    /************************************ My info ***********************/
+
+    .my-info-all {
+        width: 75%;
+    }
+
+    .my-info-image {
+        margin-left: -6.5rem;
+    }
+
+    .my-info-experience {
+        width: 65%;
+    }
+
+    /******************************* Experience ******************************/
+
+    .experience-grid {
+        width: 80%;
+    }
+
+    /* My abilities */
+
+    .my-abilities-all {
+        width: auto;
+        margin: auto;
+    }
+
+    .flex {
+        width: 335px;
+        gap: 12rem;
+    }
+
+    .rectangule {
+        background-size: 80%;
+        background-position: -175%;
+    }
+
+    /************************* My portfolio ******************************/
+
+    .my-portfolio-all {
+        width: 70%;
+    }
+
+    .two-list {
+        margin-left: 50%;
+    }
+}

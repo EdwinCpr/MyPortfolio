@@ -1,0 +1,11 @@
+@media(min-width: 2000px) {
+
+    /*********************** My abilities ********************/
+
+    .flex {
+        width: 750px;
+        gap: 55rem;
+    }
+
+    /*  */
+}

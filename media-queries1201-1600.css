@@ -1,0 +1,56 @@
+@media(min-width: 1201px) {
+
+    /*************************** Font size *******************/
+
+    h1 {
+        font-size: 7rem;
+    }
+
+    h2 {
+        font-size: 5rem;
+    }
+
+    h3 {
+        font-size: 4rem;
+    }
+
+    p {
+        font-size: 2.3rem;
+    }
+
+    /******************************** Universales *****************************/
+
+    .font-small {
+        font-size: 2.2rem;
+    }
+
+    /******************************** My info ************************************/
+    .my-info-all {
+        width: 60%;
+    }
+
+    .networks img {
+        width: 4.5rem;
+    }
+
+    .my-info-image img {
+        width: 110%;
+    }
+
+    /************************* Experience *************************/
+
+    .bar img {
+        width: 70%;
+    }
+
+    .experience-grid {
+        row-gap: 40px;
+    }
+
+    /***************************** My abilities *******************/
+
+    .flex {
+        gap: 26rem;
+        width: 585px;
+    }
+}

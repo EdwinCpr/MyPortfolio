@@ -1,0 +1,60 @@
+@media(min-width: 1025px) {
+
+    /***************************** Universal *****************************/
+
+    .font-large {
+        font-size: 6rem;
+    }
+
+    .padding3 {
+        padding: 5rem 0rem;
+    }
+    /********************************** My info *****************************/
+
+    .my-info-all {
+        width: 70%;
+    }
+
+    .my-info-description {
+        width: 100;
+    }
+
+    .my-info-image {
+        margin-left: -3.5rem;
+    }
+
+    /********************************* My abilities *****************************/
+
+    .flex {
+        gap: 22rem;
+        width: 520px;
+    }
+
+    /******************************** My portfolio ******************************/
+
+    .image-list {
+        width: 300px;
+        margin-left: 5px;
+    }
+    
+    .image-training {
+        width: 300px;
+        margin-left: 5px;
+    }
+
+    .background-color {
+        width: 320px;
+        height: 200px;
+        margin: -240px 0px 0px -3.5px;
+    }
+    
+    .background-color-two {
+        width: 320px;
+        height: 200px;
+        margin: -240px 0px 0px -4.5px;
+    }
+
+    .one-list, .two-list, .three-list {
+        height: 300px;
+    }
+}

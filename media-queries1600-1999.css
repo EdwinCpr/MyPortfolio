@@ -1,0 +1,25 @@
+@media(min-width: 1600px) {
+
+    /********************************** My info ***************************************/
+
+    .my-info-image {
+        width: 90%;
+        right: 12.5rem;
+    }
+
+    .my-info-description {
+        width: 95%;
+    }
+
+    .my-info-experience {
+        width: 63%;
+    }
+
+    /********************** My abilities *********************/
+
+    .flex {
+        gap: 40rem;
+        width: 730px;
+        margin: auto;
+    }
+}
