@@ -58,6 +58,11 @@
 
     /******************************* My info *******************/
 
+    .vector {
+        width: 60%;
+        height: 40rem;
+    }
+
     .my-info-all {
         width: 65%;
         padding-top: 8rem;

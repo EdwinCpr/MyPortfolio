@@ -1,9 +1,15 @@
 @media(min-width: 2400px) {
 
+    /*************************** My info ********************/
+    
+    .my-info-experience {
+        width: 400px;
+    }
+    
     /****************************** My abilities ***************************/
 
     .flex {
-        width: 900px;
+        width: 1000px;
         gap: 65rem
     }
 }
