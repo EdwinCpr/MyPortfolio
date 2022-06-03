@@ -53,4 +53,10 @@
         gap: 26rem;
         width: 585px;
     }
+
+    /*********************** My portfolio **********************/
+
+    .portfolio-grid {
+        row-gap: 12.5rem;
+    }
 }

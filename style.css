@@ -225,7 +225,7 @@ p {
     grid-template-columns: repeat(2, 1fr);
     margin: auto;
     width: 90%;
-    row-gap: 3rem;
+    row-gap: 5rem;
 }
 
 .two-list {

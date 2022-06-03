@@ -50,4 +50,10 @@
         background-size: 80%;
         background-position: -175%;
     }
+
+    /******************************* My portfolio *************************************/
+
+    .portfolio-grid {
+        row-gap: 6.5rem;
+    }
 }
