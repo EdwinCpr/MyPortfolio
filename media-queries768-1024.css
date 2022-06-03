@@ -45,13 +45,33 @@
     .nav-option ul li {
         display: inline-block;
         text-align: right;
-        padding: 0rem 3.1rem;
+        padding: 0rem 1.4rem;
     }
 
     .nav-icono {
         display: none;
     }
 
+    .nav-option li:hover {
+        background-color: unset;
+    }
+
+    .nav-option a:hover {
+        color: #F1A700;
+        transition: 0.4s;
+    }
+
+    .networks img:hover {
+        width: 4.5rem;
+    }
+    
+    .networks img:active {
+        width: 3rem;
+    }
+
+
+
+    
     .active {
         transform: unset;
     }

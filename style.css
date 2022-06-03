@@ -16,6 +16,17 @@ p {
     font-weight: 0;
 }
 
+.networks img:hover {
+    width: 3rem;
+    transition: 0.4s;
+}
+
+.networks img:active {
+    width: 2rem;
+    transition: 0.4s;
+}
+
+
 /******************************* Nav ********************************/
 
 .nav {
@@ -68,7 +79,7 @@ p {
 }
 
 .nav-option li:hover {
-    background-color: rgba(255, 255, 255, 0.692);
+    background-color: #F1A700;
 }
 
 /****************************** My info *********************************/

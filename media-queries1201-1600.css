@@ -24,6 +24,10 @@
         font-size: 2.2rem;
     }
 
+    .networks img:active {
+        width: 4rem;
+    }
+
     /******************************** My info ************************************/
 
     .vector {

@@ -9,6 +9,14 @@
     .padding3 {
         padding: 5rem 0rem;
     }
+
+    .networks img:hover {
+        width: 5rem;
+    }
+
+    .networks img:active {
+        width: 3rem;
+    }
     /********************************** My info *****************************/
 
     .vector {
