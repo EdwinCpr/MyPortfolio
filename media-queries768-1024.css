@@ -68,9 +68,6 @@
     .networks img:active {
         width: 3rem;
     }
-
-
-
     
     .active {
         transform: unset;
@@ -98,6 +95,12 @@
 
     .my-info-image {    
         margin-left: -5.5rem;
+    }
+
+    /************************* Experience **********************/
+
+    .logo-experience {
+        width: 13rem;
     }
 
     /********************************* My abilities *************************/

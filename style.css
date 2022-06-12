@@ -176,7 +176,7 @@ p {
     grid-template-columns: 2fr 2fr 1fr 20px;
     grid-template-rows: repeat(3, 90px);
     align-items: center;
-    max-width: 95%;
+    max-width: 100%;
     margin: auto;
     gap: 0rem 1rem;
 }
@@ -210,6 +210,9 @@ p {
     width: 46%;
 }
 
+.logo-experience {
+    width: 10rem;
+}
 /********************************** My abilities************************************ */
 
 .my-abilities {
