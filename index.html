@@ -19,19 +19,19 @@
 </head>
 <body>
     <!------------------------------------------------- Nav --------------------------------------------------->
-    <header>    
+    <header id="home">    
         <nav class="nav">
             <div class="nav-icono" id="nav-icono">
                 <img src="/image/menu 1.svg" alt="nav-bar">
             </div>
             <div class="nav-option active" id="nav-option">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Acerca de mi</a></li>
-                    <li><a href="#">Experiencia</a></li>
-                    <li><a href="#">Mis habilidades</a></li>
-                    <li><a href="#">Mi portafolio</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-me">Acerca de mi</a></li>
+                    <li><a href="#experience">Experiencia</a></li>
+                    <li><a href="#abilities">Mis habilidades</a></li>
+                    <li><a href="#my-portfolio">Mi portafolio</a></li>
+                    <li><a href="#my-contact">Contacto</a></li>
                 </ul>
             </div>
         </nav>
@@ -49,17 +49,11 @@
                         <h3>Diseñador & programador web</h3>
                     </div>
                     <div class="my-info-experience padding2rem">
-                        <h3><span class="color">7 meses</span> de experiencia</h3>
+                        <h3><span class="color">8 meses</span> de experiencia</h3>
                     </div>
                     <div class="my-info-networks">
                         <div class="networks-linkedin networks-iconOne networks">
-                            <a href="#"><img src="/image/cib_linkedin-in.svg" alt="image-linkedin"></a>
-                        </div>
-                        <div class="networks-instagram networks-icon networks">
-                            <a href="#"><img src="/image/ant-design_instagram-filled.svg" alt="image-instagram"></a>
-                        </div>
-                        <div class="networks-twitter networks-icon networks">
-                            <a href="#"><img src="/image/ant-design_twitter-outlined.svg" alt="image-twitter"></a>
+                            <a href="https://www.linkedin.com/in/edwin-daniel-9862b41b9/"><img src="/image/cib_linkedin-in.svg" alt="image-linkedin"></a>
                         </div>
                     </div>
                 </div>
@@ -72,28 +66,16 @@
         </div>
     </div>
     <!---------------------------------------------------------- About --------------------------------------------->
-    <div class="about-me padding-box">
+    <div class="about-me padding-box" id="about-me">
         <div class="about-me-title">
             <h2 class="text-center bold padding2rem">Acerca de mí</h2>
         </div>
         <div class="about-me-paragraph text-center">
             <p>Tengo 20 años, soy de Caracas-Venezuela vengo de una familia humilde y trabajadora donde me enseñaron buenos valores y buenos hábitos, también soy una persona humilde, colaboradora, con muchas ganas de salir adelante sin importar los obstáculos, me gusta aprender cada día sea de tecnología u otras cosas, también ver documentales, ayudar cuando pueda y si no lo intento, hacer ejercicio, jugar online, actualmente estudio en Academlo programación donde me han desarrollado mis conocimientos de HTML, CSS y JavaScript</p>
         </div>
-        <div class="about-me-logo-grid">
-            <div class="logo-uvm">
-                <img src="/image/image 9.jpg" alt="image-uvm" class="logowidth">
-                <h3 class="bold">UVM</h3>
-                <p>2010-2014</p>
-            </div>
-            <div class="logo-academlo">
-                <img src="/image/logo_academlo 5.jpg" alt="image-academlo" class="logowidth">
-                <h3 class="bold">Academlo</h3>
-                <p>2020-2021</p>
-            </div>
-        </div>
     </div>
     <!-------------------------------------------- Experience ----------------------------------------------->
-    <div class="experience padding-box">
+    <div class="experience padding-box" id="experience">
         <div class="experience-all">
             <div class="experience-title">
                 <h2 class="text-center bold padding2rem">Experiencia</h2>
@@ -108,7 +90,7 @@
                     <p class="font-small">2022-Actualmente</p>
                 </div>
                 <div class="year-academlo">
-                    <p>Actualmente</p>
+                    <p class="font-small">Actualmente</p>
                 </div>
                 <div class="image-airbnb" class="logo-academlo">
                     <img src="https://www.hastac.org/sites/default/files/upload/images/post/picture.png" alt="image-airbnb" class="logo-experience">
@@ -119,7 +101,7 @@
                     <p class="font-small">2021-2022</p>
                 </div>
                 <div class="year-airbnb">
-                    <p>3 meses</p>
+                    <p class="font-small">3 meses</p>
                 </div>
                 <div class="image-google">
                     <img src="/image/FreeCodeCamp_logo.svg.png" alt="image-google" class="logo-experience">
@@ -130,7 +112,7 @@
                     <p class="font-small">2022-2022</p>
                 </div>
                 <div class="year-google">
-                    <p>1 mes</p>
+                    <p class="font-small">1 mes</p>
                 </div>
                 <div class="bar">
                     <img src="/image/Group 35.svg" alt="bar">
@@ -139,7 +121,7 @@
         </div>
     </div>
     <!---------------------------------------------- My abilities ------------------------------------------------------->
-    <div class="my-abilities padding-box">
+    <div class="my-abilities padding-box" id="abilities">
         <div class="rectangule">
             <div class="my-abilities-all">
                 <div class="my-abilities-title">
@@ -193,14 +175,14 @@
         </div>
     </div>
     <!-------------------------------- My portfolio ------------------------------------->
-    <div class="my-portfolio">
+    <div class="my-portfolio" id="my-portfolio">
         <div class="my-portfolio-title">
             <h2 class="bold text-center padding2rem">Mi portafolio</h2>
         </div>
         <div class="portfolio-grid padding2rem">
             <div class="one-list">
-                <img src="/image/image 9-1.jpg" alt="image-ecommerce" class="image-list box-shadow">
-                <p class="font-small padding0-2">Ecommerce Skincare</p>
+                <a href="https://rickproject.netlify.app/"><img src="/image/rickandmorty.png" alt="image-ecommerce" class="image-list box-shadow"></a>
+                <p class="font-small padding0-2">API Rick and Morty</p>
             </div>
             <div class="two-list padding2rem">
                 <img src="/image/image 10.jpg" alt="image-training" class="image-list box-shadow-one">
@@ -213,7 +195,7 @@
         </div>
     </div>
     <!--------------------------------- My contact ----------------------------------->
-    <div class="my-contact padding-box">
+    <div class="my-contact padding-box" id="my-contact">
         <div class="my-contact-title">
             <h2 class="bold text-center">Contacto</h2>
         </div>
